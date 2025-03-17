@@ -1,0 +1,173 @@
+/* Style général pour le site */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+header .nav_bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+header .nav_bar a:hover {
+  text-decoration: underline;
+}
+
+.introduction {
+  background-color: #f4f4f4;
+  padding: 2em;
+  text-align: center;
+}
+
+/* Style général pour le site */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+ /* Style pour aligner les photos sur une ligne */
+.photo_flex {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 1rem; 
+  }
+  
+  .photo1, .photo2, .photo3 {
+    flex: 1; 
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fefefe;
+  }
+  
+  .photo1 img, .photo2 img, .photo3 img {
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .photo1 p, .photo2 p, .photo3 p {
+    margin-top: 1rem;
+    text-align: justify; 
+    color: #333;
+  }
+  /* Style général pour le corps de la page */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #fdfbfb, #ebedee); 
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Style de la section À propos */
+  section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #3c91e6; 
+  }
+  
+  section p {
+    text-align: justify;
+    margin: 1rem 0;
+    color: #555;
+  }
+  
+  section p:first-of-type {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Style pour le footer (Contact) */
+  footer {
+    padding: 2rem;
+    background: #3c91e6;
+    color: #fff;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  footer h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  footer p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+  
+  footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  footer input[type="text"],
+  footer input[type="email"] {
+    width: 80%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer input[type="submit"] {
+    width: 50%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: #feca57;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  footer input[type="submit"]:hover {
+    background: #ff9f43; 
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
